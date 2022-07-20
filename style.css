@@ -177,8 +177,8 @@ body part end
 footer part start
 ------------------ */
 .ftr-cont {
-    width: 100%;
-    height: 40vh;
+    width: 100vw;
+    height: 100%;
     background-color: black;
     display: flex;
     align-items: center;
