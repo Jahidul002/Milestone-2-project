@@ -153,6 +153,11 @@ a {
     border-radius: 5px;
 }
 
+.flg-info {
+    display: flex;
+    gap: 15px;
+}
+
 .info-dv {
     display: flex;
 }
