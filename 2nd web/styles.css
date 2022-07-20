@@ -217,3 +217,139 @@ hr {
     justify-content: center;
     background-color: black;
 }
+
+@media only screen and (max-width:1100px) {
+    .hdr-cont {
+        width: 100vw;
+        height: 50vh;
+    }
+
+    .hdr-txt {
+        padding: 50px 40px;
+        width: 40%;
+    }
+
+    .txt1 {
+        font-size: 35px;
+    }
+
+    .txt2 {
+        font-size: 12px;
+    }
+
+    .hdr-img {
+        width: 30%;
+    }
+
+    .bdy {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .body-cont {
+        background: none;
+    }
+
+    .nav-ber {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav-ber span p {
+
+        padding: 30px 60px;
+    }
+
+    .bdy {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .use-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1ft);
+    }
+
+    .extra {
+        display: none;
+    }
+
+    .hide-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80px;
+
+    }
+
+}
+
+@media only screen and (max-width:700px) {
+    .hdr-cont {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 90vh;
+    }
+
+    .txt2 {
+        width: 100px;
+        height: 50px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .bttn {
+        margin-top: 20px;
+        padding: 16px 25px;
+        text-decoration: none;
+        border-radius: 5px;
+        background-color: brown;
+        border: 2px solid white;
+        transition: 0.3s;
+        color: aliceblue;
+    }
+
+    .bttn:hover {
+        background: none;
+        text-shadow: 0 0 4px white;
+    }
+
+    .hdr-img {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+    }
+
+    .use-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .body-cont {
+        background-color: #746363;
+        margin-bottom: 10px;
+    }
+
+    .nav-ber {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ftr-cont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ftr-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
