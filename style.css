@@ -16,6 +16,8 @@
     background-color: black;
     border-radius: 30px;
     display: flex;
+    width: 100vw;
+    height: 50vh;
 
 }
 
@@ -142,15 +144,9 @@ body part start
     left: 50px;
 }
 
-.info {
-    display: flex;
-    flex-direction: column;
-}
 
 .p-brdr {
-    width: 70px;
-    margin-top: 15px;
-    padding: 3px 10px;
+    padding: 3px 5px;
     border: 0.8px solid black;
     border-radius: 5px;
 }
@@ -194,22 +190,41 @@ footer part start
     width: 70%;
 }
 
+span {
+    text-align: center;
+    font-size: 35px;
+    box-sizing: border-box;
+}
 
+span .social {
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
 
-.ftr-hd {
+.icon a i {
+    color: azure;
+}
+
+.icon a i:hover {
+    color: azure;
+    text-shadow: 0 0 2px aquamarine, 0 0 4px aquamarine, 0 0 6px aquamarine, 0 0 9px aqua;
+}
+
+.ftr-hd h1 {
     color: bisque;
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
     transition: 0.6s;
     position: relative;
+    transition: 0.9s;
 }
 
 .ftr-hd h1:hover {
     letter-spacing: 4px;
     color: azure;
-    text-shadow: 0 0 2px aquamarine, 0 0 4px aquamarine, 0 0 6px aquamarine, 0 0 9px aqua;
-
+    text-shadow: 0 0 2px aquamarine, 0 0 6px aquamarine, 0 0 8px aquamarine, 0 0 10px aqua;
+    transition: 0.9s;
 }
 
 hr {
@@ -318,10 +333,61 @@ hr {
         height: 90vh;
     }
 
+    .txt2 {
+        width: 100px;
+        height: 50px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .bttn {
+        margin-top: 20px;
+        padding: 16px 25px;
+        text-decoration: none;
+        border-radius: 5px;
+        background-color: brown;
+        border: 2px solid white;
+        transition: 0.3s;
+        color: aliceblue;
+    }
+
+    .bttn:hover {
+        background: none;
+        text-shadow: 0 0 4px white;
+    }
+
     .hdr-img {
         display: flex;
         justify-content: flex-start;
         align-items: flex-end;
     }
 
+    .use-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .body-cont {
+        background-color: #746363;
+        margin-bottom: 10px;
+    }
+
+    .nav-ber {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ftr-cont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ftr-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
