@@ -223,7 +223,7 @@ hr {
 @media only screen and (max-width:1100px) {
     .hdr-cont {
         width: 100vw;
-        height: 50vh;
+        height: 100%;
     }
 
     .hdr-txt {
@@ -290,18 +290,26 @@ hr {
 }
 
 @media only screen and (max-width:700px) {
+    .bdy {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100%;
+        text-align: center;
+    }
+
     .hdr-cont {
         display: flex;
         flex-direction: column;
-        width: 100vw;
-        height: 90vh;
+        align-items: center;
     }
 
     .txt1 {
         font-size: 20px;
         font-weight: 700;
         color: white;
-        margin-bottom: 30px;
     }
 
     .txt2 {
@@ -330,9 +338,8 @@ hr {
 
     .hdr-img {
         display: flex;
-        justify-content: flex-start;
-        align-items: flex-end;
-        position: relative;
+        justify-content: center;
+        align-items: center;
     }
 
     .use-grid {
