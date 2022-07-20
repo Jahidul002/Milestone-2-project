@@ -1,0 +1,163 @@
+/* fonts strt*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+/* font end */
+* {
+    margin: 0%;
+    border: 0px;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*---------------
+ header part strt
+----------------- */
+.hdr-cont {
+    background-color: black;
+    border-radius: 30px;
+    /* margin: 10px 140px 140px 140px; */
+    display: flex;
+
+}
+
+.hdr-txt {
+    padding: 50px 40px;
+    width: 50%;
+
+}
+
+.txt1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.txt2 {
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    padding: 10px 30px 20px 0px;
+}
+
+.bttn {
+    padding: 16px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: brown;
+    border: 2px solid white;
+    transition: 0.3s;
+    color: aliceblue;
+}
+
+button:hover {
+    background: none;
+    text-shadow: 0 0 4px white;
+}
+
+.hdr-img {
+    width: 50%;
+    position: relative;
+    top: 42px;
+    left: 150px;
+}
+
+/*==========
+ header end
+=========== */
+/* body part start */
+.bdy {
+    position: relative;
+    top: 50px;
+    display: flex;
+}
+
+.body-cont {
+    margin-right: 10px;
+    position: relative;
+    left: 35px;
+}
+
+.wdth-nv {
+    width: 30%;
+}
+
+.wdth-nv1 {
+    width: 70%;
+}
+
+.nav-ber {
+    text-decoration: none;
+    color: aliceblue;
+    width: 270px;
+    height: 300px;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nav-opt1,
+a {
+    font-size: 22px;
+    padding: 10px;
+    position: relative;
+    text-decoration: none;
+    color: black;
+    background-color: wheat;
+    border-radius: 8px;
+    margin-bottom: 3px;
+}
+
+.nav-opt {
+    font-size: 16px;
+    padding: 12px 30px;
+    margin: 10px;
+    color: black;
+    background-color: wheat;
+    border-radius: 8px;
+    width: 185px;
+    text-align: center;
+}
+
+.nav-opt2 {
+    font-size: 16px;
+    padding: 12px 30px;
+    margin: 10px;
+    color: black;
+    background-color: #ff0000bd;
+    border-radius: 8px;
+    width: 185px;
+    text-align: center;
+}
+
+.use-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 15px 15px;
+    position: relative;
+    left: 50px;
+}
+
+.p-brdr {
+    padding: 3px 10px;
+    border: 0.8px solid black;
+    border-radius: 5px;
+}
+
+.info-dv {
+    display: flex;
+}
+
+.info-dv p {
+    margin-right: 30px;
+    padding: 0px 20px 20px 20px;
+}
+
+.info h3 {
+    margin: 10px 10px 10px 10px;
+}
