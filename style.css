@@ -214,12 +214,21 @@ hr {
     color: #746363;
     gap: 20px;
     justify-content: center;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 .ftr-info p:hover {
+    display: flex;
+    justify-content: center;
     letter-spacing: 2px;
     color: azure;
     text-shadow: 0 0 2px aquamarine, 0 0 4px aquamarine, 0 0 6px aquamarine, 0 0 9px aqua;
+    transition: 0.5s;
+}
 
+.social-dv {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    background-color: black;
 }
