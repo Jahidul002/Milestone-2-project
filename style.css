@@ -15,7 +15,6 @@
 .hdr-cont {
     background-color: black;
     border-radius: 30px;
-    /* margin: 10px 50px 140px 45px; */
     display: flex;
 
 }
@@ -50,7 +49,7 @@
     color: aliceblue;
 }
 
-button:hover {
+.bttn:hover {
     background: none;
     text-shadow: 0 0 4px white;
 }
@@ -71,8 +70,7 @@ button:hover {
 body part start 
 -----------------*/
 .bdy {
-    position: relative;
-    top: 50px;
+    padding-top: 10%;
     display: flex;
 }
 
@@ -163,6 +161,12 @@ body part start
     margin: 10px 10px 10px 10px;
 }
 
+.hide-btn {
+    padding: 10px 5px;
+    background-color: brown;
+    display: none;
+}
+
 /* ==============
 body part end
 ================ */
@@ -236,13 +240,19 @@ hr {
         width: 40%;
     }
 
+    .txt1 {
+        font-size: 35px;
+    }
+
+    .txt2 {
+        font-size: 12px;
+    }
+
     .hdr-img {
         width: 30%;
     }
 
     .bdy {
-        position: relative;
-        top: 50px;
         display: flex;
         flex-direction: column;
     }
@@ -273,4 +283,26 @@ hr {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1ft);
     }
+
+    .extra {
+        display: none;
+    }
+
+    .hide-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80px;
+
+    }
+
+}
+
+@media only screen and(max-width:780) {
+    .hdr-cont {
+        display: flex;
+        flex-direction: column;
+
+    }
+
 }
