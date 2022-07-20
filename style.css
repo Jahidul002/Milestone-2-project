@@ -142,7 +142,14 @@ body part start
     left: 50px;
 }
 
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
 .p-brdr {
+    width: 70px;
+    margin-top: 15px;
     padding: 3px 10px;
     border: 0.8px solid black;
     border-radius: 5px;
@@ -235,6 +242,11 @@ hr {
 }
 
 @media only screen and (max-width:1100px) {
+    .hdr-cont {
+        width: 100vw;
+        height: 50vh;
+    }
+
     .hdr-txt {
         padding: 50px 40px;
         width: 40%;
@@ -298,33 +310,18 @@ hr {
 
 }
 
-@media only screen and(max-width:780) {
+@media only screen and (max-width:720px) {
     .hdr-cont {
         display: flex;
         flex-direction: column;
+        width: 100vw;
+        height: 90vh;
     }
 
-    .txt1 {
-        font-size: 25px;
-        font-weight: 700;
-        color: white;
+    .hdr-img {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
     }
 
-    .txt2 {
-        font-size: 12px;
-        font-weight: 400;
-        color: white;
-        padding: 10px 30px 20px 0px;
-    }
-
-    .txt2 {
-        white-space: nowrap;
-        width: 100px;
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
-
-    .txt2:hover {
-        overflow: visible;
-    }
 }
