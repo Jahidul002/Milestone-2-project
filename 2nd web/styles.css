@@ -14,7 +14,7 @@
 ----------------- */
 .hdr-cont {
     width: 100vw;
-    height: 50vh;
+    height: 100%;
     background-color: black;
     border-radius: 30px;
     margin: 10px 50px 140px 45px;
