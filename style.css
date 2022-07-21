@@ -1,6 +1,9 @@
 /* fonts strt*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
 
+
+
+
 /* font end */
 * {
     margin: 0%;
@@ -12,6 +15,7 @@
 /*---------------
  header part strt
 ----------------- */
+
 .hdr-cont {
     background-color: black;
     border-radius: 30px;
@@ -74,6 +78,7 @@ body part start
 .bdy {
     padding-top: 10%;
     display: flex;
+    justify-content: center;
 }
 
 .body-cont {
@@ -144,6 +149,11 @@ body part start
     left: 50px;
 }
 
+/* .info {
+    display: flex;
+    flex-direction: column;
+} */
+
 
 .p-brdr {
     padding: 3px 5px;
@@ -192,7 +202,7 @@ footer part start
 
 span {
     text-align: center;
-    font-size: 35px;
+    font-size: 18px;
     box-sizing: border-box;
 }
 
@@ -282,6 +292,7 @@ hr {
     .bdy {
         display: flex;
         flex-direction: column;
+        width: 100vw;
     }
 
     .body-cont {
@@ -332,8 +343,6 @@ hr {
         justify-content: center;
         align-items: center;
         width: 100vw;
-        height: 100%;
-        text-align: center;
     }
 
     .hdr-cont {
@@ -379,6 +388,11 @@ hr {
     .body-cont {
         background-color: #746363;
         margin-bottom: 10px;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
     }
 
     .nav-ber {
